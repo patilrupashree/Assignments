@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Reg. Form</title>
+</head>
+
+<body>
+    <fieldset style=" max-width:550px;">
+        <h1> Student Registration Form</h1>
+
+        <form action="#">
+            <table>
+                <fieldset style="max-width:500px;">
+
+                    <span>Student Name : </span>
+                    <input type="text" placeholder=" Name" required><br/> 
+
+                    <span> Address : </span>
+                    <input type="text" placeholder=" Address"><br/>
+
+                    <span> City : </span>
+                    <select name="City" selected="none">
+
+                        <option value="none">Select one</option>
+                        <option value="pune">Pune</option>
+                        <option value="kolhapur">Kolhapur</option>
+                        <option value="sangli"> Sangli</option>
+                        <option value="bengalore"> Bengalore</option>
+                        <option value="mumbai"> Mumbai</option>
+                        <option value="chennai">Chennai</option>
+                    </select> <br>
+
+                    <span> Email : </span>
+
+                    <span>Mobile No. : </span>
+                    <input type="text" placeholder=" Mobile no." required pattern="9[0-9]{9}"><br/>
+
+                    <span> Course Selected: </span>
+                    <select name="lang" selected="none">
+                        <option value="none">Select one</option>
+                        <option value="java">Java</option>
+                        <option value="python">Python</option>
+                        <option value="c++"> C++</option>
+                        <option value=" node js">Java</option>
+                        <option value=".NET">Python</option>
+                        <option value="Cloude"> C++</option>
+                        </br>
+                    </select> <br>
+                    <span> Birthday: </span>
+                    <input type="date" name="Birthday" id="u3" min="2015-01-01"> <br>
+                    <br>
+                </fieldset>
+
+                <fieldset style="max-width:500px;">
+
+                    <legend>Hobbies : </legend>
+
+                    <input type="checkbox" name=" Travelling" id="c1">
+                    <label for="c1 ">Travelling </label><br>
+
+                    <input type="checkbox" name=" Playing Crocket" id="c2">
+                    <label for="c1 "> Playing Crocket </label><br>
+
+                    <input type="checkbox" name=" Swimming" id="c1">
+                    <label for="c1 ">Swimming </label><br>
+                </fieldset>
+
+                <fieldset style="max-width:500px;">
+                    <legend> Time slot</legend>
+
+                    <input type="radio" name=" slot" id="r1">
+                    <label for="r1 ">Morning[8:00-11:00]</label><br>
+
+                    <input type="radio" name=" slot" id="r2">
+                    <label for="r2"> Afternoon[15:00-18:00]</label><br>
+
+                    <input type="radio" name=" slot" id="r3">
+                    <label for="r3">Evening[19:00-22:00]</label><br>
+
+                </fieldset>
+                <fieldset style=" max-width:500px;">
+                    <input type="submit" value="Submit">
+
+                    <input type="reset" value="Rset">
+                </fieldset>
+            </table>
+        </form>
+    </fieldset>
+</body>
+
+</html>
